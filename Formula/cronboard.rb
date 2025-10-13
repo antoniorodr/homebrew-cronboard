@@ -3,8 +3,8 @@ class Cronboard < Formula
 
   desc 'A terminal-based dashboard for managing cron jobs'
   homepage 'https://github.com/antoniorodr/cronboard'
-  url 'https://github.com/antoniorodr/CronBoard/releases/download/v0.1.1/cronboard-0.1.1.tar.gz'
-  sha256 'bc28aa07315eecca412ee11370ab87af8ccc6ba11e4a131b31bfb5f610da9cc3'
+  url 'https://github.com/antoniorodr/CronBoard/releases/download/v0.1.2/cronboard-0.1.2.tar.gz'
+  sha256 '8172c91638f557226ab015c6ea013ccd0b14b38264bab68b0a8a4eca2ac4c58e'
   license 'MIT'
 
   livecheck do
@@ -92,6 +92,11 @@ class Cronboard < Formula
   resource 'six' do
     url 'https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz'
     sha256 'ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81'
+  end
+
+  resource 'textual-autocomplete' do
+    url 'https://files.pythonhosted.org/packages/1e/3a/80411bc7b94969eb116ad1b18db90f8dce8a1de441278c4a81fee55a27ca/textual_autocomplete-4.0.6.tar.gz'
+    sha256 '2ba2f0d767be4480ecacb3e4b130cf07340e033c3500fc424fed9125d27a4586'
   end
 
   def install
