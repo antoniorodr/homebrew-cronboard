@@ -3,8 +3,8 @@ class Cronboard < Formula
 
   desc 'A terminal-based dashboard for managing cron jobs'
   homepage 'https://github.com/antoniorodr/cronboard'
-  url 'https://github.com/antoniorodr/CronBoard/releases/download/v0.1.2/cronboard-0.1.2.tar.gz'
-  sha256 '8172c91638f557226ab015c6ea013ccd0b14b38264bab68b0a8a4eca2ac4c58e'
+  url 'https://github.com/antoniorodr/CronBoard/releases/download/v0.2.0/cronboard-0.2.0.tar.gz'
+  sha256 '9e5b0be3ce0ea14f92d1fb16ef0f4e0a5bfbb8f8f0bbf3008123237bdaf508c3'
   license 'MIT'
 
   livecheck do
